@@ -1,0 +1,201 @@
+/* PLANTILLA */
+header {
+  background :rgb(52, 73, 94);
+  color:#fff;
+  height: 60px;
+
+  margin-bottom:  20px;
+
+}
+
+
+
+
+footer {
+  width: 100%;
+  height: 40px;
+position: absolute;
+  bottom: 0;
+  background:#16a085;
+  color:#fff;
+
+
+}
+
+
+body{
+
+  background:rgba(153,153,153,0.2);
+}
+/*  FIN PLANTILLA */
+
+
+
+
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    background:rgba(153,153,153,0.2);
+  }
+
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+
+  color:#FFF;
+
+  }
+}
+
+
+/* Scroll MODAL */ 
+
+
+.scroll{
+
+
+overflow-y: auto;
+
+ overflow-x: hidden;
+}
+
+
+
+::-webkit-scrollbar { 
+    width: 10px; 
+} 
+      
+::-webkit-scrollbar-track { 
+    -webkit-box-shadow: #000000; 
+    -webkit-border-radius: 10px; 
+    border-radius: 10px; 
+} 
+
+::-webkit-scrollbar-track-piece { 
+    background-color: #FFF; 
+} 
+      
+::-webkit-scrollbar-thumb { 
+    -webkit-border-radius: 10px; 
+    border-radius: 10px; 
+    background: #3AC4AC; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  
+} 
+
+::-webkit-scrollbar-thumb:window-inactive { 
+    background: #3AC4AC; 
+} 
+
+
+/*  FIN  Scroll MODAL */ 
+
+
+
+
+
+
+
+/* barra de navegacion */ 
+
+
+#imge{
+  left:22%;
+  width: 55%;
+  height: 70%;
+  opacity: 0.7;
+  margin-top:100px;
+  position:absolute;
+
+}
+
+
+
+.navbar-default {
+  background-color: #3AC4AC;
+  border-color: #e7e7e7;
+  border-bottom:  3px  solid #FFF;
+  border-left:  3px   solid #FFF;
+
+}
+
+
+
+  .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+
+/* FIN  barra de navegacion */ 
+
+
+
+
+
+
+/* MODAL ARTISTA */ 
+  .modal-lg {
+    width: 1000px;
+  }
+
+/*  FIN   MODAL ARTISTA */ 
+
+
+
+
+
+
+
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-top: 4px solid #3AC4AC;
+  border-bottom-color: #f4f4f4;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid  #f4f4f4;
+}
+
+
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+    color: #333;
+}
+
+
+
+
+/*  tablas perzonalizada*/ 
+
+.contenedor{
+border-right: 1px;
+border-left: 1px solid #d2d6de;
+ border-top: 3px solid #d2d6de;
+ border-bottom:  3px solid #d2d6de;
+ border-radius: 5px;
+padding: 5px;
+background-color: #fff;
+}
+
+
+.titulop{
+
+ border-bottom: 2px solid  #f4f4f4;
+
+}
+
+
+/*  FIN  tablas perzonalizada*/ 

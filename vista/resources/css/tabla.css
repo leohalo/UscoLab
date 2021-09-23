@@ -1,0 +1,24 @@
+table {
+   width: 50%;
+   border: 2px solid #000;
+   margin: 0 
+   auto;
+  
+}
+th, td {
+   width: 20%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}

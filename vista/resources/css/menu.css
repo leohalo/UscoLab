@@ -1,0 +1,510 @@
+/* *******************************************************************************
+UNIVERSIDAD SURCOLOMBIANA
+CTIC
+César Fernández
+webmaster
+2013
+******************************************************************************* */
+.menH, .menV {
+	position: relative;
+	z-index: 100;
+	clear: both;
+  float: left;
+  display: block;
+	margin: 0;
+	width: 100%;
+	height: 30px;
+	font-size: 90%;
+}
+
+/* nombre MENU */
+.menH>span, .menV>span {
+	display: none;
+	color: #CCC;
+	color: #CCC;
+}
+
+/* enlace desplegar */
+.menH>a, .menV>a {
+	display: none;
+}
+/* ----- */
+.menH li, .menV li {
+	position: relative;
+}
+
+.menH li a, .menV li a {
+	text-decoration: none;
+	color: #8F141B;
+	display: block;
+}
+
+/* first level */
+.menH>ul, .menV>ul {
+	height: 30px; /* 60 */
+	/*background-color: #8C0000;*/
+}
+
+.menH>ul>li {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.menH>ul>li>a, .menV>ul>li a {
+	padding: 5px 8px 0 8px;
+}
+
+.menH>ul>li>a.des, .menV>ul>li a.des {
+	padding-right: 20px;
+	/*	background: url(/resources/images/menu_flecha.png) 100% center no-repeat;*/
+}
+
+.menH>ul>li>a.des::before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 13px;
+	right: 5px;
+	width: 0;
+	height: 0;
+	border: solid transparent 4px;
+	border-top-color: #8F141B;
+	transition: opacity 150ms, top 50ms;
+}
+
+/*
+			.menH > ul > li a.des2{
+				background: url(/resources/images/menu_flechaV.png) 100% center no-repeat;
+			}
+			*/
+.menH>ul>li a.des2::before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 45%;
+	right: 5px;
+	width: 0;
+	height: 0;
+	border: solid transparent 4px;
+	border-left-color: #8F141B;
+	transition: opacity 150ms, top 50ms;
+}
+
+/*			.menH > ul > li > a:hover,
+			.menH > ul > li:hover */
+.menH>ul>li a:hover, .menH>ul>li:hover, .menV>ul>li a:hover, .menV>ul>li:hover
+	{
+	background-color: #EFEAD3;
+}
+/*
+				#nav > ul > li:not( :last-child ) > a
+				{
+					border-right: 1px solid #cc470d;
+				}
+				#nav > ul > li:hover > a,
+				#nav > ul:not( :hover ) > li.active > a
+				{
+					background-color: #cc470d;
+				}
+			*/
+
+/* second level */
+.menH li ul, .menV li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	width: 250px;
+	background-color: #EFEAD3;
+}
+.menH li ul, .menV li ul.doble {
+	width: 300px;
+}
+
+.menH li:hover>ul, .menV li:hover>ul {
+	display: block;
+	left: 0;
+	right: 0;
+}
+
+.menH li:not ( :first-child ):hover ul, .menV li:not ( :first-child ):hover ul
+	{
+	left: 0;
+}
+
+/* SUB DOBLE */
+.menH li ul.bloque {
+	width: 500px;
+}
+
+.menH li ul.bloque>li {
+	float: left;
+	width: 50%;
+}
+
+.menH li ul.bloque>li a {
+	border: none;
+}
+
+/*			.menH li ul li, .menV li ul li{
+				border-bottom: 1px solid #6D0808;
+			}
+*/
+.menH li ul li:hover, .menV li ul li:hover {
+	border-color: transparent;
+}
+
+.menH li ul a {
+	padding: 8px 16px 6px 16px;
+	border-bottom: 1px solid #DFD4A6;
+}
+
+.menH li ul li:hover, .menH li ul li:hover a, .menH li ul li a:hover {
+	background-color: #DFD4A6;
+}
+
+/* tercer level */
+.menH li ul li ul {
+	display: none;
+	top: 0;
+	margin-left: 300px;
+}
+.menH li ul.bloque li ul{
+	margin-left: 250px;
+}
+
+.menH li ul.bloque li ul li ul{
+	margin-left: 300px;
+}
+
+.menH li ul li ul li ul{
+	margin-left: 300px;
+}
+
+.menH li ul li:hover ul {
+	display: block;
+}
+
+.menH li ul li ul li:hover a, .menH li ul li ul li:hover a:hover {
+	/*						background-color: blue;*/
+	/*border-color: red;*
+						background-color: #790909;
+						border-color: #950000;*/
+	background-color: #EFEAD3;
+}
+
+/* cuarto level */
+.menH li ul li ul li ul li {
+	display: none;
+	background-color: #EFEAD3;
+}
+
+.menH li ul li ul li a:hover ul li, .menH li ul li ul li:hover ul li {
+	display: block;
+	width: 300px; /* sub sub */
+}
+
+.menH li ul li ul li:hover ul li:hover a:hover, .menH li ul li ul li:hover ul li a:hover
+	{
+	background-color: #DFD4A6;
+}
+
+/***********************************************************************************
+VERTICAL
+***********************************************************************************/
+.menV {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	margin-bottom: 10px;
+	margin: 10px;
+	width: 160px;
+	height: auto;
+	/*
+	background-color: #DBE0E2;
+	background-color: rgba(219, 224, 226, 0.8);
+	*/
+	background-color: #DBE0E2;
+}
+
+.menV li {
+	float: left;
+	width: 100%;
+}
+
+.menV li a {
+	line-height: 104%;
+	color: #4C616C;
+}
+
+.menV>ul {
+	height: auto; /* 60 */
+	border-top: 1px solid #EEE;
+}
+
+/* first level */
+.menV>ul>li {
+	border-bottom: 1px solid #EEE;
+}
+
+.menV>ul>li>a {
+	padding: 7px 5px;
+	text-align: left;
+}
+
+.menV>ul>li a.des {
+	background-image: url(/resources/images/menu_flechaV.png);
+}
+
+.menV>ul>li a:hover, .menV>ul>li:hover a, .menV>ul>li:hover {
+	color: #FFF;
+	background-color: #4D626C;
+	background-color: rgba(77, 98, 108, 0.5);
+}
+
+/* second level */
+.menV li ul {
+	top: 0;
+	margin-left: 140px;
+}
+
+.menV li ul li {
+	border-color: #727272;
+}
+
+.menV>ul>li>ul li a:hover, .menV>ul>li>ul li:hover a, .menV>ul>li>ul li:hover
+	{
+	background-color: #727272 /*4D0000*/;
+}
+/*
+			.menV li ul li:hover{
+				border: none;
+			}*/
+.menV li ul a {
+	padding: 8px 16px 6px 16px;
+	border-bottom: 4px solid #898989 /*790909*/;
+}
+
+.menV li ul li:hover>a {
+	border-color: #950000;
+}
+
+/* tercer level */
+.menV li ul li ul {
+	display: none;
+	margin-left: 220px;
+}
+
+.menV li ul li:hover ul {
+	display: block;
+}
+
+.menV li ul li ul li {
+	border-color: #5C5C5C;
+}
+
+.menV li ul li ul li a {
+	border-color: #727272;
+}
+
+.menV li ul li ul li:hover a {
+	background-color: #5C5C5C;
+	border-bottom: 4px solid #950000;
+}
+
+/*
+		#nav li:hover ul, #navV li:hover ul{
+			display: block;
+			left: 0;
+			right: 0;
+		}
+		#nav li:not( :first-child ):hover ul, #navV li:not( :first-child ):hover ul{
+			left: 0;
+		}
+			#nav li ul li, #navV li ul li{
+				border-bottom: 1px solid #6D0808;
+			}
+			#nav li ul li:hover, #navV li ul li:hover{
+				border-color: transparent;
+			}
+
+			#nav li ul a, #navV li ul a{
+				padding: 8px 16px 6px 16px;
+				border-bottom: 4px solid #790909;
+			}
+			#nav li ul li a:hover,
+			#nav li ul:not( :hover ) li.active a,
+			#navV li ul li a:hover,
+			#navV li ul:not( :hover ) li.active a{
+				background-color: #4D0000;
+				border-color: #950000;
+			}
+			*#nav li ul a:hover, *#navV li ul a:hover{
+				background-color: #4D0000;
+				border-color: #950000;
+			}
+
+
+/***********************************************************************************
+RESPONSIVE
+***********************************************************************************/
+
+/***********************************************************************************
+MENOS DE 960 DE ANCHO - TABLETAS
+*/
+@media only screen and ( max-width: 960px ) /* 1000 */ { /*
+	#nav{
+		width: 100%;
+		position: static;
+		margin: 0;
+		padding: 5px 0;
+		background: red;
+	}
+	*/
+}
+
+/***********************************************************************************
+MENOS DE 420 DE ANCHO - CELULAR 420px
+*/
+@media only screen and ( max-width: 960px ) /* 640 */ {
+	html {
+		/*	font-size: 75%; /* 12 */
+		
+	}
+	nav {
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: auto !important;
+	}
+	.menH, .menV {
+		position: relative;
+		top: auto;
+		left: auto;
+		height: inherit;
+		background: #8C0000;
+	}
+	.menV {
+		width: 100%;
+	}
+
+	/* nombre MENU */
+	#nav>span, #navV>span {
+		position: absolute;
+		z-index: 1;
+		display: block;
+		left: 55px;
+		height: 30px;
+		padding: 17px 0 3px 10px;
+		font-size: 90%;
+		background: /*#8C0000*/ url(/resources/images/menu_flechaI.png) 0 center
+			no-repeat;
+	}
+	.menH>a, .menV>a {
+		position: relative;
+		width: 50px; /* 50 */
+		height: 50px; /* 50 */
+		text-align: left;
+		text-indent: -9999px;
+		background-color: #620000;
+	}
+	.menH>a:hover, .menV>a:hover {
+		background-color: #8C0000 /*red*/;
+	}
+	#nav>a:before, #nav>a:after, #navV>a:before, #navV>a:after {
+		position: absolute;
+		border: 2px solid #fff;
+		top: 35%;
+		left: 25%;
+		right: 25%;
+		width: 20px;
+		content: '';
+	}
+	#nav>a:after, #navV>a:after {
+		top: 60%;
+	}
+	#nav:not ( :target ) > a:first-of-type, #nav:target>a:last-of-type,
+		#navV:not ( :target ) > a:first-of-type, #navV:target>a:last-of-type {
+		display: block;
+	}
+
+	/*		#nav:not( :target ) > span:first-of-type  A LA INVERSA */
+	#nav:target>span:last-of-type {
+		display: none;
+	}
+
+	/* first level */
+	.menH>ul, .menV>ul {
+		/*	position: absolute; */
+		left: 0;
+		right: 0;
+		display: none;
+		height: auto;
+		border-top: 1px solid #6D0808;
+	}
+	.menH:target>ul, .menV:target>ul {
+		display: block;
+	}
+	.menH>ul>li, .menV>ul>li {
+		width: 100%;
+		float: none;
+	}
+	.menV>ul>li {
+		height: 100%;
+		float: left;
+	}
+	.menH>ul>li>a, .menV>ul>li>a {
+		height: auto;
+		text-align: left;
+		padding: 0 0.833em; /* 20 (24) */
+		/*	font-size: 1.5em; /* 24 *
+				line-height: 2.5em; /* 60 (24) */
+		line-height: 2em; /* 60 (24) */
+	}
+	.menV>ul>li a.des {
+		background-image: url(/resources/images/menu_flecha.png);
+	}
+	.menH>ul>li:not ( :last-child ) > a, .menV>ul>li:not ( :last-child ) > a
+		{
+		border-right: none;
+		border-bottom: 1px solid #620000;
+	}
+
+	/* second level */
+	.menH li ul, .menV li ul {
+		width: 100%;
+		position: static;
+		/*	padding: 1.25em; /* 20 */
+		padding: 0;
+	}
+	.menH li ul a, .menV li ul a {
+		/*	font-size: 1.25em; /* 20 */
+		font-size: 96%;
+	}
+	.menV li ul {
+		margin: 0;
+	}
+
+	/* tercer level */
+	.menV li ul li ul {
+		margin: 0 1%;
+		padding: 0;
+		width: 98%;
+	}
+	.menV li ul li ul a {
+		border: none;
+	}
+	.menV li ul li ul li:hover a {
+		border-bottom-width: 1px;
+	}
+	.menV li ul li ul a:hover {
+		background: #370000;
+	}
+}
+
+/***********************************************************************************/
+@media only screen and ( min-width: 960px ) {
+	.noDesktop, .noticiasIn h1.noDesktop, .eventos h1.noDesktop {
+		display: none;
+	}
+}

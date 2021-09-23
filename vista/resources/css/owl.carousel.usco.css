@@ -1,0 +1,243 @@
+/* *******************************************************************************
+UNIVERSIDAD SURCOLOMBIANA
+CTIC
+César Fernández
+webmaster
+2017
+*********************************************************************************/
+.slider {
+	clear: both;
+}
+
+.owl-carousel .owl-item .cubre {
+	position: absolute;
+	z-index: 10;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.owl-carousel .owl-item.center .cubre {
+	height: 0;
+}
+
+.notGrup {
+	float: left;
+	width: 100%;
+}
+
+.notGrup div {
+	position: absolute;
+	z-index: 2;
+	margin: 0 0 0 4%;
+	width: 34%;
+	height: 100%;
+	background-color: rgba(77, 98, 108, 0.8);
+}
+
+.notGrup h1 {
+	margin: 0;
+	font-size: 150%;
+	line-height: 110%;
+}
+
+.notGrup h1 a {
+	display: block;
+	width: 96%;
+	padding: 15px 2% 0 2%;
+	height: 120px;
+}
+
+.notGrup a p {
+	position: absolute;
+	bottom: 10px;
+	margin: 0 2%;
+	padding: 3px 0 0 0;
+	width: 96%;
+	height: 50px;
+	border-top: 1px solid #CCC;
+}
+
+.notGrup a {
+	color: #DDD;
+}
+
+.notGrup:hover a {
+	color: #FFF;
+}
+
+.notGrup a.mas {
+	position: absolute;
+	right: -100px;
+	bottom: 15px;
+	padding: 5px;
+	font-size: 80%;
+	color: #8F141B;
+	background-color: #DFD4A6;
+}
+
+.notGrup:hover a.mas {
+	color: #DFD4A6;
+	background-color: #8F141B;
+}
+
+.notGrup img {
+	float: right;
+	width: 100%;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	display: block;
+	margin-top: -38px;
+	width: 36px;
+	height: 56px;
+	text-indent: 9999px;
+	line-height: 9999px;
+	text-transform: uppercase;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(/resources/images/flechas.png) 0 0 no-repeat;
+	opacity: 0.5;
+}
+
+.owl-theme .owl-nav .owl-prev {
+	left: 1%;
+}
+
+.owl-theme .owl-nav .owl-next {
+	right: 1%;
+	background-position: 100% 0;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+	opacity: 1;
+}
+
+.controlPlayer {
+	position: absolute;
+	z-index: 10;
+	top: 218px;
+	right: 20px;
+}
+
+.btnPlayer {
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-indent: 9999px;
+	line-height: 9999px;
+	text-transform: uppercase;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.btnPlayer, .btnPlayer.playD {
+	background: #8F141B url(/resources/images/controles.png) 0 0 no-repeat;
+}
+
+.btnPlayer.stop, .btnPlayer.stopD {
+	background-position: 100% 0;
+}
+
+.btnPlayer:hover {
+	background-color: #333;
+}
+
+.btnPlayer.esconde {
+	display: none;
+}
+
+/*
+.btnPlayer.playD{ background-position: 0 100%; }
+.btnPlayer.stopD{ background-position: 100% 100%; }
+*/
+.btnPlayer.prevD {
+	background-position: 0 100%;
+}
+
+.btnPlayer.nextD {
+	background-position: 100% 100%;
+}
+
+.control .btnPlayer {
+	background-color: #DFD4A6;
+}
+
+.control .btnPlayer:hover {
+	background-color: #C7B363;
+}
+
+/*
+@media (max-width: 1200px){
+	.notGrup img{ width: 240px; }
+	.notGrup div{ margin: 0 240px 0 0; }
+	.notGrup h1 a{
+		padding: 20px 10px;
+		height: 80px;
+	}
+	.notGrup a p{ height: 48px; }
+	.notGrup a.mas{ display: none; }
+
+	.owl-theme .owl-nav [class*='owl-'] { top: 64px; }
+}
+*/
+
+/*******************************************************/
+@media ( max-width : 1300px) {
+	.notGrup a.mas {
+		display: none;
+	}
+}
+
+@media ( max-width : 1200px) {
+	.notGrup div {
+		margin: 0 0 0 3%;
+		width: 40%;
+	}
+	.notGrup h1 a {
+		height: 80px;
+	}
+}
+
+@media ( max-width : 1100px) {
+	.notGrup div {
+		margin: 0 0 0 1%;
+		width: 44%;
+	}
+	.notGrup h1 a {
+		height: 80px;
+	}
+	.notGrup a.mas {
+		display: none;
+	}
+}
+
+/*******************************************************
+@media (max-width: 1000px){
+	.owl-theme .owl-nav [class*='owl-'] {
+		position: inherit;
+		float: left;
+	}
+	.controlPlayer{ right: 0; }
+}
+@media (max-width: 600px){
+	.notGrup img{ display: none; }
+	.notGrup div{ margin: 0; }
+}
+
+
+@media (min-width: 1600px){
+	.notGrup h1{ font-size: 200%; }
+	.notGrup a p{ font-size: 140%; }
+}
+@media (min-width: 1800px){
+	.notGrup h1{ font-size: 260%; }
+	.notGrup h1 a{ height: 150px; }
+	.notGrup a p{ font-size: 180%; }
+	.notGrup a.mas{ margin-top: -10px; }
+}
+*/

@@ -1,0 +1,1569 @@
+
+	float: left;
+	padding: 0;
+}
+
+.organigrama a {
+	position: absolute;
+	z-index: 2;
+	display: block;
+  text-decoration: none;
+	background: url("../images/organigrama/1-consejo_sup.png") 0 -100px
+		no-repeat;
+	/*	border: 1px solid red;*/
+	transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-webkit-transition: none;
+}
+
+.organigrama a.consejo_sup {
+	margin: 0 0 0 234px;
+	width: 204px;
+	height: 30px;
+	background-image: url("../images/organigrama/1-consejo_sup.png");
+}
+
+.organigrama a.consejo_acade {
+	margin: 54px 0 0 72px;
+	width: 122px;
+	height: 32px;
+	background-image: url("../images/organigrama/2-consejo_acade.png");
+}
+
+.organigrama a.rectoria {
+	margin: 54px 0 0 299px;
+	width: 73px;
+	height: 31px;
+	background-image: url("../images/organigrama/3-rectoria.png");
+}
+
+.organigrama a.com_adm {
+	margin: 40px 0 0 468px;
+	width: 131px;
+	height: 29px;
+	background-image: url("../images/organigrama/4-comite_adm.png");
+}
+
+.organigrama a.com_control {
+	margin: 70px 0 0 468px;
+	width: 131px;
+	height: 30px;
+	background-image: url("../images/organigrama/5-comite_control.png");
+}
+
+.organigrama a.ofi_juridica, .organigrama a.dir_sedes, .organigrama a.secre_gral,
+	.organigrama a.control_dis {
+	margin: 90px 0 0 139px;
+	width: 121px;
+	height: 30px;
+	background-image: url("../images/organigrama/6-ofi_juridica.png");
+}
+
+.organigrama a.dir_sedes {
+	margin: 120px 0 0 139px;
+	background-image: url("../images/organigrama/7-dir_sedes.png");
+}
+
+.organigrama a.secre_gral {
+	margin: 150px 0 0 139px;
+	background-image: url("../images/organigrama/8-secre_gral.png");
+}
+
+.organigrama a.control_dis {
+	margin: 180px 0 0 139px;
+	height: 40px;
+	background-image: url("../images/organigrama/9-control_dis.png");
+}
+
+.organigrama a.of_planea, .organigrama a.contro_int, .organigrama a.of_orni
+	{
+	margin: 104px 0 0 401px;
+	width: 130px;
+	height: 30px;
+	background-image: url("../images/organigrama/10-of_planea.png");
+}
+
+.organigrama a.contro_int {
+	margin: 134px 0 0 401px;
+	background-image: url("../images/organigrama/11-contro_int.png");
+}
+
+.organigrama a.of_orni {
+	margin: 164px 0 0 401px;
+	height: 51px;
+	background-image: url("../images/organigrama/12-of_orni.png");
+}
+
+/**/
+.organigrama a.vice_invest {
+	margin: 288px 0 0 246px;
+	width: 178px;
+	height: 37px;
+	background-image: url("../images/organigrama/vice_invest.png");
+}
+
+.organigrama a.vice_academica {
+	margin: 288px 0 0 65px;
+	width: 144px;
+	height: 37px;
+	background-image: url("../images/organigrama/vice_academica.png");
+}
+
+.organigrama a.vice_admin {
+	margin: 288px 0 0 463px;
+	width: 164px;
+	height: 37px;
+	background-image: url("../images/organigrama/vice_admin.png");
+}
+
+/**/
+.organigrama a.facu_naturales {
+	margin: 335px 0 0 18px;
+	width: 132px;
+	height: 41px;
+	background-image: url("../images/organigrama/facu_naturales.png");
+}
+
+.organigrama a.facu_salud {
+	margin: 377px 0 0 18px;
+	width: 132px;
+	height: 29px;
+	background-image: url("../images/organigrama/facu_salud.png");
+}
+
+.organigrama a.facu_economia {
+	margin: 406px 0 0 18px;
+	width: 132px;
+	height: 41px;
+	background-image: url("../images/organigrama/facu_economia.png");
+}
+
+.organigrama a.facu_sociales {
+	margin: 447px 0 0 18px;
+	width: 132px;
+	height: 41px;
+	background-image: url("../images/organigrama/facu_sociales.png");
+}
+
+.organigrama a.facu_educacion {
+	margin: 489px 0 0 18px;
+	width: 132px;
+	height: 28px;
+	background-image: url("../images/organigrama/facu_educacion.png");
+}
+
+.organigrama a.facu_derecho {
+	margin: 519px 0 0 18px;
+	width: 132px;
+	height: 41px;
+	/*	background-image: url("organigrama/facu_derecho.png"); */
+	background-image: url("../images/organigrama/facu_juridica.png");
+}
+
+.organigrama a.facu_ingenieria {
+	margin: 560px 0 0 18px;
+	width: 132px;
+	height: 30px;
+	background-image: url("../images/organigrama/facu_ingenieria.png");
+}
+/**/
+.organigrama a.inve_reg_y_control {
+	margin: 335px 0 0 159px;
+	width: 112px;
+	height: 51px;
+	background-image: url("../images/organigrama/inve_reg_y_control.png");
+}
+
+.organigrama a.inve_curriculo {
+	margin: 387px 0 0 159px;
+	width: 112px;
+	height: 38px;
+	background-image: url("../images/organigrama/inve_curriculo.png");
+}
+
+/**/
+.organigrama a.aca_centro_docu {
+	margin: 335px 0 0 307px;
+	width: 151px;
+	height: 40px;
+	background-image: url("../images/organigrama/aca_centro_docu.png");
+}
+
+.organigrama a.aca_ctic {
+	margin: 375px 0 0 307px;
+	width: 151px;
+	height: 56px;
+	background-image: url("../images/organigrama/aca_ctic.png");
+}
+
+.organigrama a.aca_dir_inves {
+	margin: 431px 0 0 307px;
+	width: 151px;
+	height: 41px;
+	background-image: url("../images/organigrama/aca_dir-investiga.png");
+}
+
+.organigrama a.inve_dir_extension {
+	margin: 472px 0 0 307px;
+	width: 151px;
+	height: 41px;
+	background-image: url("../images/organigrama/inve_dir_extension.png");
+}
+
+/**/
+.organigrama a.adm_divi_personal {
+	margin: 334px 0 0 481px;
+	width: 151px;
+	height: 36px;
+	background-image: url("../images/organigrama/adm_divi_personal.png");
+}
+
+.organigrama a.adm_divi_finan {
+	margin: 371px 0 0 481px;
+	width: 151px;
+	height: 37px;
+	background-image: url("../images/organigrama/adm_divi_finan.png");
+}
+
+.organigrama a.adm_divi_grales {
+	margin: 408px 0 0 481px;
+	width: 151px;
+	height: 50px;
+	background-image: url("../images/organigrama/adm_divi_grales.png");
+}
+
+.organigrama a.adm_divi_bienestar {
+	margin: 458px 0 0 481px;
+	width: 151px;
+	height: 50px;
+	background-image: url("../images/organigrama/adm_divi_bienestar.png");
+}
+
+.organigrama a.adm_divi_recursos {
+	margin: 508px 0 0 481px;
+	width: 151px;
+	height: 37px;
+	background-image: url("../images/organigrama/adm_gest_recursos.png");
+}
+
+.organigrama a:hover {
+	background-position: 0 0;
+}
+
+/* ---- */
+.organigrama div {
+	position: absolute;
+	z-index: 3;
+	display: none;
+	padding: 15px;
+	background: #F0F0F0;
+	border: 1px solid #999;
+}
+
+.organigrama div h3 {
+	margin: 0 0 5px 0;
+	width: 255px;
+	color: #000;
+	font-size: 120%;
+	line-height: 110%;
+}
+
+.organigrama div.consejo_sup {
+	margin: 35px 0 0 234px;
+}
+
+.organigrama div.consejo_acade {
+	margin: 87px 0 0 72px;
+}
+
+.organigrama div.rectoria {
+	margin: 87px 0 0 299px;
+}
+
+.organigrama div.com_adm {
+	margin: 69px 0 0 360px;
+}
+
+.organigrama div.com_control {
+	margin: 99px 0 0 360px;
+}
+
+.organigrama div.ofi_juridica {
+	margin: 124px 0 0 139px;
+}
+
+.organigrama div.dir_sedes {
+	margin: 154px 0 0 139px;
+}
+
+.organigrama div.secre_gral {
+	margin: 186px 0 0 139px;
+}
+
+.organigrama div.control_dis {
+	margin: 184px 0 0 262px;
+}
+
+.organigrama div.of_planea {
+	margin: 136px 0 0 401px;
+}
+
+.organigrama div.contro_int {
+	margin: 166px 0 0 401px;
+}
+
+.organigrama div.of_orni {
+	margin: 215px 0 0 401px;
+}
+
+.organigrama div.vice_invest {
+	margin: 326px 0 0 245px;
+}
+
+.organigrama div.vice_academica {
+	margin: 326px 0 0 70px;
+}
+
+.organigrama div.vice_admin {
+	margin: 326px 0 0 370px;
+}
+
+.organigrama div.facu_naturales {
+	margin: 326px 0 0 150px;
+}
+
+.organigrama div.facu_salud {
+	margin: 368px 0 0 150px;
+}
+
+.organigrama div.facu_economia {
+	margin: 397px 0 0 150px;
+}
+
+.organigrama div.facu_sociales {
+	margin: 330px 0 0 150px;
+}
+
+.organigrama div.facu_educacion {
+	margin: 370px 0 0 150px;
+}
+
+.organigrama div.facu_derecho {
+	margin: 435px 0 0 150px;
+}
+
+.organigrama div.facu_ingenieria {
+	margin: 450px 0 0 150px;
+}
+
+.organigrama div.inve_reg_y_control {
+	margin: 326px 0 0 272px;
+}
+
+.organigrama div.inve_curriculo {
+	margin: 378px 0 0 272px;
+}
+
+.organigrama div.aca_centro_docu {
+	margin: 326px 0 0 40px;
+}
+
+.organigrama div.aca_ctic {
+	margin: 354px 0 0 40px;
+}
+
+.organigrama div.aca_dir_inves {
+	margin: 390px 0 0 40px;
+}
+
+.organigrama div.inve_dir_extension {
+	margin: 410px 0 0 40px;
+}
+
+.organigrama div.adm_divi_personal {
+	margin: 325px 0 0 214px;
+}
+
+.organigrama div.adm_divi_finan {
+	margin: 354px 0 0 214px;
+}
+
+.organigrama div.adm_divi_grales {
+	margin: 384px 0 0 206px;
+}
+
+.organigrama div.adm_divi_bienestar {
+	margin: 413px 0 0 214px;
+}
+
+.organigrama div.adm_divi_recursos {
+	margin: 423px 0 0 214px;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+ACREDITACION */
+.sello-acreditacion{
+	position: absolute;
+	z-index: 1000;
+	top: 30px;
+	right: 2%;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+ACRODEON */
+.accordion, .accordion * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.accordion {
+	overflow: hidden;
+	/*
+	background:#F0F0F0;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	border-radius:3px;
+	*/
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width: 100%;
+	padding: 8px;
+	display: inline-block;
+	background: #F1F1F1;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #DDD;
+	transition: all linear 0.15s;
+}
+
+.contenido a.accordion-section-title {
+	text-decoration: none;
+}
+
+.contenido a.accordion-section-title.active, .contenido a.accordion-section-title:hover
+	{
+	text-decoration: none;
+	background: #CCC;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom: none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding: 5px;
+	display: none;
+	/*
+	border: 1px solid #CCC;
+	border-top: none;
+	*/
+}
+
+/* -------------------------------------------------------------------------------------- */
+.accordion.limpio {
+	/*	border: 1px solid red*/
+	
+}
+
+.accordion.limpio .accordion-section-title {
+	margin-top: 10px;
+	padding: 8px 8px 2px 0;
+	font-size: 130%;
+	background: none;
+}
+
+.contenido .limpio a.accordion-section-title.active, .contenido .limpio a.accordion-section-title:hover
+	{
+	background: #F1F1F1;
+	background: none;
+}
+/*
+.accordion.limpio .accordion-section-title span{
+	float: left;
+    margin: 0 7px 0 0;
+	padding: 4px 8px;
+	background: #CCC;
+}
+*/
+
+.accordion.limpio .accordion-section-title span{
+	float: left;
+	width: 930px;
+}
+
+.accordion.limpio .accordion-section-title span.num{
+    margin: 0 10px 0 0;
+	padding: 4px 8px;
+	width: 40px;
+	background: #CCC;
+}
+
+.accordion.limpio .accordion-section-title span.subAcor{
+	font-size: 90%;
+}
+
+.contenido .limpio a.accordion-section-title.active span.num, .contenido .limpio a.accordion-section-title:hover span.num{
+	color: #FFF;
+	background: #000;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+
+.entes a{
+	float: left;
+	display: block;
+	margin-bottom: 15px;
+	width: 660px;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #F0F0F0;
+}
+.entes a img{
+	float: left;
+	margin: 5px 10px 5px 5px;
+}
+.entes a:hover {
+	color: #AF1E1E;
+	background: #F0F0F0;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+.catalogo {
+	float: left;
+	display: block;
+	margin-bottom: 30px;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+}
+
+.catalogo div {
+	float: left;
+	display: block;
+	width: 550px;
+	overflow: hidden;
+}
+
+.catalogo div.portada {
+	width: 115px;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+.marcoNov {
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 657px;
+	height: 380px;
+	overflow: auto;
+	background: #F2F2F2;
+	border: 2px solid #CCC;
+	border-top: 12px solid #CCC;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+.acor_btn, .acor_conte {
+	float: left;
+	width: 100%;
+	cursor: pointer;
+	/*	background: #003366;
+	border-bottom: 1px solid #FFFFFF; */
+}
+
+.acor_conte {
+	/*	background: #95B1CE; *
+	display: none; */
+	
+}
+/*.acor_btn:hover{ padding-left: 10px; }*/
+h3.acor_btn, h2.acor_btn {
+	margin: 0;
+}
+
+.acor_separa {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+ul.menInter {
+	float: left;
+	margin: 10px 0 20px 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	/*	border-left: 1px solid #CCC;*/
+}
+
+ul.menInter li {
+	float: left;
+}
+
+ul.menInter li a {
+	float: left;
+	padding: 0 8px;
+	text-decoration: none;
+	color: #666;
+	border-right: 1px solid #CCC;
+}
+
+ul.menInter li a.dr {
+	padding: 0 8px 0 0;
+}
+
+ul.menInter li a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+a.up {
+	padding-left: 14px;
+	background: url("../images/tri_arriba.png") 0 center no-repeat;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- *
+/* -------------------------------------------------------------------------------------- 
+ACTOS ADMINISTRATIVOS */
+.anoDoc .ocultar {
+	display: none;
+}
+
+.contenido .article .anoDoc ul {
+	display: none;
+	clear: both;
+	float: left;
+	padding: 15px 0 0 10px;
+	width: 670px;
+	border: 1px solid #CCC;
+}
+
+.anoDoc h2 span {
+	font-size: 80%;
+	cursor: pointer;
+}
+
+.anoDoc ul li {
+	float: left;
+	margin: 0 1% 15px 1%;
+	padding: 0;
+	width: 48%;
+	color: #666;
+	margin: 0 1% 15px 3%;
+	width: 46%;
+}
+
+.anoDoc ul li a {
+	display: block;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+TABS */
+.responsive-tabs__heading {
+	display: none;
+}
+
+.responsive-tabs__list__item {
+	display: inline;
+	cursor: pointer;
+}
+
+
+
+@media ( max-width : 767px) {
+	.responsive-tabs__list {
+		display: none;
+	}
+	.responsive-tabs__heading {
+		display: block;
+		cursor: pointer;
+	}
+	.responsive-tabs__panel--closed-accordion-only {
+		display: none;
+	}
+}
+
+@media ( min-width : 768px) {
+	.responsive-tabs__panel--closed-accordion-only {
+		display: block !important;
+	}
+}
+
+/* END - Required for core functionality */
+
+/* OPTIONAL - Basic Skin */
+.responsive-tabs-wrapper {
+	/*	clear: both;*/
+	zoom: 1;
+	margin-bottom: 30px;
+}
+
+.responsive-tabs-wrapper:before, .responsive-tabs-wrapper:after {
+	content: "";
+	display: table;
+}
+
+.responsive-tabs-wrapper:after {
+	clear: both;
+}
+
+.responsive-tabs__heading:focus, .responsive-tabs__list__item:focus {
+	outline: 1px solid #ccc;
+}
+
+.responsive-tabs__heading--active:focus,
+	.responsive-tabs__list__item--active:focus {
+	outline: none !important;
+}
+
+.contenido .article ul.responsive-tabs__list {
+	font-size: 110%;
+	margin: 10px 0 0 0;
+	padding: 0 0 12px 0;
+	line-height: 110%;
+	border-bottom: 1px solid #DBE0E2;
+}
+
+.responsive-tabs__list__item {
+	padding: 10px 20px;
+	margin-right: 5px;
+	background: #DBE0E2;
+}
+
+.responsive-tabs__list__item:hover {
+	background: #F6F7F8;
+}
+
+.responsive-tabs__list__item--active,
+	.responsive-tabs__list__item--active:hover {
+	color: #fff;
+	background-color: #8F141B;
+	border-bottom-color: #fff;
+}
+/*
+.responsive-tabs__panel{
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+*/
+.contenido .article .responsive-tabs__panel ul {
+	margin-top: 20px;
+}
+
+/* -------------------------------------------------------------------------------------- *
+DENTRO DE ACORDEON
+/* -------------------------------------------------------------------------------------- */
+.acor_conte2 .responsive-tabs-wrapper {
+	padding-top: 10px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+@media ( max-width : 767px) {
+	.responsive-tabs__heading {
+		position: relative;
+		margin: 0;
+		padding: 0.5em;
+		/*		border-radius: 5px;
+		background: #DDD;
+*/
+		border-top: 1px solid #ccc;
+	}
+	.responsive-tabs__heading:after {
+		content: "";
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 40%;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid #000;
+	}
+	.responsive-tabs__heading:hover, .responsive-tabs__heading--active:hover
+		{
+		background-color: #efefef
+	}
+	.responsive-tabs__heading--active {
+		background: #fff;
+	}
+	.responsive-tabs__heading--active:after {
+		border-bottom: 10px solid #000;
+		border-top: 0;
+	}
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+ACORDEON */
+.accordion, .accordion * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.accordion {
+	overflow: hidden;
+	/*
+	background:#F0F0F0;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	border-radius:3px;
+	*/
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width: 100%;
+	padding: 8px;
+	display: inline-block;
+	background: #F1F1F1;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #DDD;
+	transition: all linear 0.15s;
+}
+
+.contenido a.accordion-section-title {
+	text-decoration: none;
+}
+
+.contenido a.accordion-section-title.active, .contenido a.accordion-section-title:hover
+	{
+	text-decoration: none;
+	background: #CCC;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom: none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding: 5px;
+	display: none;
+	/*
+	border: 1px solid #CCC;
+	border-top: none;
+	*/
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+H2 ICONOS */
+.contenido h2.icono {
+	clear: both;
+	padding-left: 36px;
+}
+
+.contenido h2.icono.ley {
+	background: url("../images/icoh2/ico-ley.png") 0 center no-repeat;
+}
+
+.contenido h2.icono.calen {
+	background: url("../images/icoh2/ico-calendario.png") 0 center no-repeat;
+}
+
+.contenido h2.icono.geo {
+	background: url("../images/icoh2/ico-geo.png") 0 center no-repeat;
+}
+
+/*.contenido .article .accordion li,*/
+.contenido .article ul.icoDoc li {
+	list-style: url("../images/icoh2/ico-doc.png")
+}
+
+.contenido .article  a.back, .contenido a.subir{
+	padding-left: 20px;
+	background: url("../images/icoh2/ico-back.png") 0 center no-repeat;
+}
+.contenido a.subir{
+	background-image: url("../images/icoh2/ico-up.png");
+}
+
+.contenido h2.icono.info {
+	background: url("../images/icoh2/info.png") 0 center no-repeat;
+}
+.contenido h2.icono.atencion {
+	background: url("../images/icoh2/atencion.png") 0 center no-repeat;
+}
+.contenido h2.icono.pregunta {
+	background: url("../images/icoh2/pregunta.png") 0 center no-repeat;
+}
+.contenido h2.icono.planeacion {
+	background: url("../images/icoh2/planeacion.png") 0 center no-repeat;
+}
+.contenido h2.icono.control {
+	background: url("../images/icoh2/control.png") 0 center no-repeat;
+}
+.contenido h2.icono.normatividad {
+	background: url("../images/icoh2/normatividad.png") 0 center no-repeat;
+}
+.contenido h2.icono.presupuesto {
+	background: url("../images/icoh2/presupuesto.png") 0 center no-repeat;
+}
+.contenido h2.icono.contrato {
+	background: url("../images/icoh2/contrato.png") 0 center no-repeat;
+}
+.contenido h2.icono.gestion {
+	background: url("../images/icoh2/gestion.png") 0 center no-repeat;
+}
+.contenido h2.icono.sistema {
+	background: url("../images/icoh2/sistema.png") 0 center no-repeat;
+}
+.contenido h2.icono.tecnologia {
+	background: url("../images/icoh2/tecnologia.png") 0 center no-repeat;
+}
+.contenido h2.icono.escudo {
+	background: url("../images/icoh2/escudo.png") 0 center no-repeat;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+LIST IMAG */
+.contenido .article ul.imagen {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+}
+
+.contenido .article ul.imagen li {
+	float: left;
+	width: 25%;
+	list-style: none;
+}
+
+.contenido .article ul.imagen li a {
+	display: block;
+	margin: 5px;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #EEE;
+}
+
+.contenido .article ul.imagen li a img {
+	height: 80px;
+	-khtml-opacity: 0.6; /* khtml, version anterior de safari */
+	-moz-opacity: 0.6; /* firefox, mozilla, netscape */
+	opacity: 0.6; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	/*internet explorer 8 - gracias Andres */
+}
+
+.contenido .article ul.imagen li a:hover img {
+	/*	filter: alpha(opacity=100); /* internet explorer */
+	-khtml-opacity: 1; /* khtml, version anterior de safari */
+	-moz-opacity: 1; /* firefox, mozilla, netscape */
+	opacity: 1; /* safari, chrome, opera */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	/*internet explorer 8 - gracias Andres */
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+FORMULARIO INTERNO */
+.contenido .article form.frminterno {
+	clear: both;
+	float: left;
+	display: block;
+	margin: 20px 0;
+	padding: 20px 3%;
+	width: 94%;
+	background: #FAFAFA;
+}
+
+.contenido .article form.frminterno.noclear {
+	clear: inherit;
+	margin-top: 0;
+}
+
+.contenido .article form.frminterno fieldset {
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+	padding: 10px 2% 0 3%;
+}
+
+.contenido .article form.frminterno fieldset legend span {
+	padding: 0 5px;
+	font-size: 120%;
+}
+
+.contenido .article form.frminterno label {
+	float: left;
+	width: 50%;
+}
+
+.contenido .article form.frminterno label.laball, .contenido .article form.frminterno label span
+	{
+	display: block;
+	width: 100%;
+}
+
+.contenido .article form.frminterno label input, .contenido .article form.frminterno label select
+	{
+	display: block;
+	margin: 4px 0 20px 0;
+	padding: 3px 1%;
+	width: 94%;
+	background: #FFF;
+}
+
+.contenido .article form.frminterno label textarea {
+	display: block;
+	margin: 4px 0 20px 0;
+	padding: 3px 1%;
+	width: 96%;
+}
+
+.contenido .article form.frminterno label input.btn, .contenido .article form.frminterno label button.btn
+	{
+	margin: 0;
+	padding: 5px 15px;
+	width: auto;
+	color: #FFF;
+	background: #666;
+	border: none;
+}
+
+.contenido .article form.frminterno label input.btn:hover, .contenido .article form.frminterno label button.btn:hover
+	{
+	background: #222;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+LISTADO NORMATIVIDAD 2015 */
+.contenido .article .normas ul {
+	width: 732px;
+}
+
+.contenido .article .normas ul li {
+	margin-bottom: 16px;
+}
+
+.contenido .article .normas ul a {
+	text-decoration: none;
+}
+
+.contenido .article .normas ul p {
+	margin: 0;
+}
+
+.contenido .article .normas ul h2 {
+	font-size: 150%;
+}
+
+.contenido .article .normas ul .fecha {
+	font-size: 80%;
+}
+
+.contenido .article .normas ul span {
+	display: block;
+	padding: 4px 0;
+	border-bottom: 1px solid #DDD;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+INSCRIPCIONES */
+.btn, a.btn {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 300px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background: #B20002;
+}
+
+.btn:hover, a.btn:hover {
+	color: #FFF;
+	background: #000;
+}
+
+.noV {
+	display: none;
+}
+
+.actMos .enl {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.actMos .enl:hover {
+	color: #B81726;
+}
+
+.actMosClose {
+	float: right;
+	margin: -1px 5px 0 0;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 80%;
+	background: #CCC;
+}
+
+li .actMosClose {
+	margin: 0 22px 0 0;
+}
+
+.actMosClose:hover {
+	color: #FFF;
+	background: #000;
+}
+
+.contenido .actMos table {
+	width: 98%;
+}
+
+.contenido .article #pasos .accordion li {
+	clear: both;
+	width: 98%;
+}
+
+.txtred, h3.txtred {
+	color: #F30000 !important;
+}
+
+.txtgreen, h3.txtgreen {
+	color: #009700 !important;
+}
+
+.txtcentrado, .contenido p.txtcentrado, .contenido .txtcentrado p {
+	text-align: center;
+}
+
+.txt160, .contenido .txt160 {
+	font-size: 159%;
+}
+
+.borInf {
+	border-bottom: 1px solid #CCC;
+}
+
+.noMargin{
+	margin: 0 !important;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+MAPA GEOREFERENCIA */
+#map, .mapArea{
+	width: 100% !important;
+	height: 400px !important;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+MODAL */
+.encima {
+	display: none;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: 1001;
+	opacity: .75;
+	-moz-opacity: 0.75;
+	filter: alpha(opacity = 75);
+}
+
+.encimaModal {
+	display: none;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 1002;
+	top: 50%;
+	left: 50%;
+	margin: -85px 0 0 -250px;
+	padding: 0;
+	width: 500px;
+	height: 170px;
+	overflow: hidden;
+	text-align: center;
+	background: #EFF1F2 url(../images/modal_ok.png) 10px 55px no-repeat;
+	border: 2px solid #495B0B;
+	/*	overflow: auto;*/
+}
+
+.encimaModal h3 {
+	margin: 0 0 10px 0;
+	padding: 10px 0;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #495B0B;
+}
+
+.encimaModal p {
+	margin: 10px;
+	padding-left: 50px;
+	text-align: left;
+}
+
+.encimaModal.eror {
+	border-color: #C10036;
+	background-image: url(../images/modal_error.png);
+}
+
+.encimaModal.eror h3 {
+	background-color: #C10036;
+}
+
+.encimaModal div {
+	float: left;
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.encimaModal div a {
+	margin-top: 10px;
+	padding: 10px 30px;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #495B0B;
+	border: none;
+}
+
+.encimaModal div a:hover {
+	padding: 10px 40px;
+	color: #DFD4A6;
+	background-color: #8F141B;
+	box-shadow: 0 0 8px #666;
+}
+
+.encimaModal.eror div a {
+	background-color: #C10036;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+CALIDAD */
+
+.calidad_izq, .calidad_der{
+	float: left;
+}
+
+.calidad_izq{
+	width: 290px;
+	text-align: right;
+}
+
+.contenido .calidad_izq li{
+	list-style: none;
+	margin-bottom: 15px;
+	height: 40px;
+}
+
+.calidad_izq li a{
+	float: right;
+	display: block;
+	padding: 10px 0 0 10px;
+	text-decoration: none;
+	background-color: #FFF;
+
+	transition: all 0.10s ease-out;
+	-moz-transition: all 0.10s ease-out;
+	-o-transition: all 0.10s ease-out;
+	-webkit-transition: all 0.10s ease-out;
+}
+
+.calidad_izq li span{
+	display: block;
+	float: right;
+	margin: -10px 0 0 10px;
+	width: 40px;
+	height: 40px;
+	background-color: #DFD4A6;
+}
+.calidad_izq li img{
+	margin: 5px 5px 0 0;
+	vertical-align: middle;
+}
+
+.calidad_izq li a.actual{
+	color: #FFF;
+	background-color: #8F141B;
+}
+.calidad_izq li a:hover img, .calidad_izq li a.actual img{
+	transform: rotate(90deg);
+	-webkit-transform:rotate(90deg); 
+	-ms-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+}
+
+.calidad_izq li a:hover, .calidad_izq li a.actual:hover, .desglo_calidad button:hover{
+	color: #4D626C;
+	background-color: #DFD4A6;
+}
+
+
+.calidad_der{
+	width: 700px;
+}
+
+.desglo_calidad{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 660px;
+	margin-bottom: 30px;
+	padding: 0 20px;
+	background-color: #F5F2E4;
+	border: 2px solid #DFD4A6;
+}
+
+.desglo_calidad button{
+	float: right;
+	padding: 6px 12px 10px 12px;
+	color: #FFF;
+	cursor: pointer;
+	background-color: #8F141B;
+	border: none;
+}
+
+.desglo_calidad{
+	text-align: left;
+}
+.txtcentrado .desglo_calidad p{
+	text-align: justify;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- 
+INESCRIPCIONES PARTES */
+
+.conIcoInscrip{
+	float: left;
+	margin: 30px 0;
+	width: 100%;
+}
+
+.icoInscrip, .icoInscripNum{
+	float: left;
+	text-align: center;
+	width: 14.28571428571429%;
+}
+
+.seis .icoInscrip, .seis .icoInscripNum{
+	width: 16.666666666666666666666666666667%;
+}
+
+.icoInscrip{
+	cursor: pointer;
+}
+.icoInscripNum{
+	margin-top: 10px;
+}
+
+.semestre2 .icoInscripNum{
+	margin-top: 0;
+}
+
+
+
+.icoInscripNum.primer{
+	clear: both;
+}
+
+.icoInscrip img{
+	border-radius: 80px;
+	background-color: #8F141B;
+	background-color: #14528F;
+	border: 5px solid #DFD4A6;
+}
+.icoInscrip.insActivo img{
+	background-color: #5C0E12;
+	border-color: #4D626C;
+}
+.icoInscrip:hover img{
+	border-color: #4D626C;
+}
+
+.semestre2 img{
+	border-radius: 0;
+	background-color: #253E0B;
+}
+
+.contenido h4.verVidInscrip{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	color: #FFF !important;
+	border: none;
+}
+/*
+.contenido h4.verVidInscrip:hover{
+	color: #8F141B !important;
+}
+*/
+.videos-inscrip{
+	display: none;
+}
+.videos-inscrip .responsive-tabs-wrapper{
+	margin-top: 20px;
+}
+
+.contenido .icoInscrip{
+	background: url(/resources/images/inscrip_linea.png) 0 50px no-repeat;
+}
+.contenido .icoInscrip.ini{ background-position: 70px 50px; }
+.contenido .icoInscrip.end{ background-position: -130px 50px; }
+
+.contenido .icoInscrip div{
+	position: absolute;
+	margin: 46px 0 0 12px;
+	width: 10px;
+	height: 10px;
+	background: url(/resources/images/inscrip_tri.png) 0 0 no-repeat;
+}
+.contenido .seis .icoInscrip div{
+	margin-left: 25px;
+}
+
+
+.contenido .icoInscrip h4, .contenido .icoInscripNum h4{
+	margin: 10px 0 5px 0;
+	padding: 0;
+	line-height: 120%;
+	border: none;
+}
+.contenido .icoInscripNum h4{
+	margin: 5px 0 10px 0;
+	font-weight: bold;
+}
+.contenido .icoInscripNum h4 span{
+	padding: 5px 10px 0 10px;
+	border-top: 1px solid  #DBE0E2;
+}
+
+.contenido .semestre2 .icoInscripNum h4 span{
+	padding: 0;
+	border: none;
+}
+
+.contenido .icoInscrip:hover h4, .contenido .icoInscrip:hover h5{
+	color: #000 !important;
+}
+
+.contenido .icoInscrip h4.dos{
+	position: absolute;
+	margin-left: 40px;
+}
+
+.contenido .icoInscrip h5.pdUpH5{
+	padding-top: 40px;
+}
+
+.parteInscrip{
+	clear: both;
+	display: none;
+}
+.parteInscrip.ver{
+	display: block;
+}
+
+.contenido .parteInscrip p{
+	line-height: 130%;
+}
+
+.contenido .icoInscrip span.cerrado, .contenido .icoInscrip span.link{
+	position: absolute;
+	z-index: 1;
+	margin: 38px 0 0 -15px;
+	padding: 5px;
+	width: 120px;
+	height: auto;
+	font-size: 80%;
+	font-weight: bold;
+	color: #FFF;
+	background: #FF6600;
+	border: 2px solid #FFFF00;
+}
+
+.contenido .icoInscrip span.cerrado{
+	transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg); 
+	-o-transform: rotate(-15deg);
+}
+
+.contenido .icoInscrip span.link{
+	margin: 70px 0 0 -35px;
+	width: 160px;
+	color: #DFD4A6;
+	background-color: #8F141B;
+	border-color: #DFD4A6;
+}
+.contenido .icoInscrip span.link a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.icoInscrip.todo{
+	width: 100%;
+	background: none;
+}
