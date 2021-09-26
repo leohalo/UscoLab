@@ -31,7 +31,7 @@
             }
           ?> 
         </select></div>
-        <input name="tipo_lab" type="text" placeholder="Tipo de laboratorio" required title="Laboratorio de Biologia" pattern="[A-Za-z]+">
+        <input name="tipo_lab" type="text" placeholder="Tipo de laboratorio"   pattern="[A-Za-z ]+" required >
 
         <input name="cupos" type="number" placeholder="Cupos del laboratorio" required pattern="[0-9]{10}" style="WIDTH: 300px; HEIGHT: 60px" size=32>
 
