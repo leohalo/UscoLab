@@ -1,2 +1,2 @@
 # UscoLab
-Proyecto de UscLab para Practica Profesional
+Proyecto de UscoLab para Practica Profesional
