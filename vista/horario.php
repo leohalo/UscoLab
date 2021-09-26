@@ -72,7 +72,7 @@
        <div class="input-daterange">
         <div class="col-md-12" style="margin-top: 10px;">
           <label>Fecha Deseada:</label>
-         <input type="text" name="fecha" id="start_date" class="form-control" />
+         <input type="text" name="fecha" id="start_date" class="form-control" required>
          
         </div>
        </div>
